@@ -1,0 +1,8 @@
+Credentials cache: API:63964D3F-D230-4B18-952E-866A6FFB3D26
+        Principal: dde-jesu@42.FR
+
+  Issued                Expires               Principal
+Jul  4 07:55:01 2017  Jul 11 07:55:01 2017  krbtgt/42.FR@42.FR
+Jul  4 07:55:02 2017  Jul 11 07:55:01 2017  ldap/ldap-proxy.42.fr@42.FR
+Jul  4 07:55:02 2017  Jul 11 07:55:01 2017  HTTP/student-storage-1.42.fr@42.FR
+Jul  4 08:04:55 2017  Jul 11 07:55:01 2017  host/vgs-fn1.42.fr@42.FR
