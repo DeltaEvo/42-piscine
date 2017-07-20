@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = vogsphere@vogsphere.42.fr:intra/2017/activities/piscine_c_day_08/dde-jesu
+	branch = master
+	commit = 4626346612988b6cfe89a5a0b0c503f03f4ce9b1
+	parent = 5c3a7cf54ef7e491bcdc197a9e8429acf5bc695f
+	cmdver = 0.3.1
