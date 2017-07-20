@@ -6,7 +6,7 @@
 /*   By: dde-jesu <dde-jesu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/13 18:36:25 by dde-jesu          #+#    #+#             */
-/*   Updated: 2017/07/17 10:58:01 by dde-jesu         ###   ########.fr       */
+/*   Updated: 2017/07/20 16:03:33 by dde-jesu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,12 +37,12 @@ char	**ft_split_whitespaces(char *str)
 
 	size = 0;
 	str -= 1;
-	tmp = str;
+	tmp = str - 1;
 	while (*++tmp)
 		if (!IS_SEPARATOR(*tmp)
 				&& (IS_SEPARATOR(*(tmp + 1)) || *(tmp + 1) == '\0'))
 			size++;
-	tab = malloc(size * (sizeof(char*) + 1));
+	tab = malloc((size + 1) * sizeof(char*));
 	tab[size] = 0;
 	tmp = str--;
 	while (++str == tmp || (*str && *(str + 1)))
